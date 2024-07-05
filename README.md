@@ -1,13 +1,7 @@
 My specific contributions included:
 •Designing and implementing the difficulty level menu for games.
-<img width="797" alt="menu" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/cde64e21-18e7-4555-b32d-18da4cbb4fae">
 •Developing the login and registration pages with user authentication functionalities.
-<img width="438" alt="register" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/6f0b54ef-08df-4461-bb2a-f1d1c2722b46">
-<img width="930" alt="login" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/c90e8dbb-80da-4f89-bd3e-8b3e332d35e0">
 •Creating the frontend components and interfaces for the memory game and find and remember game.
-<img width="797" alt="memory_Game" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/3967f712-abbc-4163-857d-2ff7e32941bf">
-<img width="796" alt="find game" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/750e502e-1e39-439c-859d-c17eafe9232f">
-<img width="808" alt="find_game_final" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/4aee2b37-a792-4c94-b84a-18f0353b1ab3">
 •Implementing the backend API for the typing speed game.
 •For every game utilizing Axios for efficient data transmission between the frontend and backend for every game, enabling seamless storage and retrieval of game scores from MongoDB
 
@@ -15,6 +9,14 @@ Technologies used:
 •Frontend: ReactJS, TypeScript, TailwindCSS, CSS
 •Backend: Flask
 •Additional tools: Axios, framer motion
+
+Components made by me:
+<img width="438" alt="register" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/6f0b54ef-08df-4461-bb2a-f1d1c2722b46">
+<img width="930" alt="login" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/c90e8dbb-80da-4f89-bd3e-8b3e332d35e0">
+<img width="797" alt="menu" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/cde64e21-18e7-4555-b32d-18da4cbb4fae">
+<img width="797" alt="memory_Game" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/3967f712-abbc-4163-857d-2ff7e32941bf">
+<img width="796" alt="find game" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/750e502e-1e39-439c-859d-c17eafe9232f">
+<img width="808" alt="find_game_final" src="https://github.com/niezgodam/human-benchmark-reactJS-flask-mongoDB-/assets/116079315/4aee2b37-a792-4c94-b84a-18f0353b1ab3">
 
 
 # HumanBenchmark
