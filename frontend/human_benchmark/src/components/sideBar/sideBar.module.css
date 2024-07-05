@@ -1,0 +1,136 @@
+.sideBar {
+  position: fixed;
+  left: 50px;
+  top: 6vh;
+  height: calc(100vh - 60px);
+  min-height: 600px;
+  height: 80vh;
+  margin-top: 6vh;
+  width: 70px;
+  /* margin-left: 50px; */
+  border-radius: 1000px;
+  background-color: #1a1717;
+  background-color: #0e0c0c;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  -webkit-box-shadow: 0px 0px 24px 2px rgba(28, 28, 28, 1);
+  -moz-box-shadow: 0px 0px 24px 2px rgba(28, 28, 28, 1);
+  box-shadow: 0px 0px 24px 2px rgba(28, 28, 28, 1);
+
+  background: rgb(14, 12, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 12, 12, 1) 0%,
+    rgba(26, 23, 23, 1) 100%
+  );
+}
+
+.gameBar {
+  width: 100%;
+  height: 55px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-radius: 10px;
+  border-radius: 0px 8px 8px 0px;
+  font-weight: bold;
+  overflow-x: hidden;
+  text-wrap: nowrap;
+  padding-left: 20%;
+  color: transparent;
+  gap: 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    width 0.3s ease-in-out;
+}
+
+.gameBar:hover {
+  background-color: lightgray;
+  color: #783dcb;
+  width: 260px;
+}
+
+.gameContainer {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.gamePart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.optionsCOG {
+  display: flex;
+  justify-content: center;
+  transition: scale 0.2s ease-in-out;
+}
+
+.optionsCOG:hover {
+  scale: 1.2;
+}
+
+.cogBox {
+  position: relative;
+}
+
+.logoutButtonBox {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 150px;
+  color: red;
+  background: rgb(14, 12, 12);
+  border-radius: 0px 10px 10px 0px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logout:hover {
+  scale: 1.1;
+}
+
+@media (max-width: 1200px) {
+  .sideBar {
+    height: 60px;
+    min-height: 60px;
+    width: 80vw;
+    left: 10vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding: 0px;
+    /* overflow: auto; */
+    /* margin: 0px; */
+  }
+
+  .gamePart {
+    flex-direction: row;
+    width: 85%;
+    padding-left: 5%;
+  }
+
+  .gameBar {
+    height: 60px;
+    width: 60px;
+    padding: 0px;
+    padding-left: 8px;
+    overflow: visible;
+  }
+  .gameBar:hover {
+    width: 200px;
+  }
+  .logoutButtonBox {
+    left: -160px;
+    border-radius: 10px;
+    background-color: white;
+  }
+}

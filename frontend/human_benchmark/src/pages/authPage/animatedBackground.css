@@ -1,0 +1,35 @@
+:root {
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+}
+.main{
+  cursor: url("rocket.png"),auto;
+}
+.content {
+    margin: 0;
+    height: 100vh;
+    background-image: url('backAuthPage.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.mask {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(0,0%,0%, 0.90);
+  mask: radial-gradient(
+    circle at var(--mouse-x) var(--mouse-y),
+    transparent 40px,
+    black 150px
+  );
+  -webkit-mask: radial-gradient(
+    circle at var(--mouse-x) var(--mouse-y),
+    transparent 40px,
+    black 150px
+  );
+}
+
+.input:hover{
+  cursor: url("rocket_input.png"),auto;
+}

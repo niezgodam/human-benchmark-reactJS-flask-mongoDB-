@@ -1,0 +1,74 @@
+.typingGame {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gameContainer {
+  background-color: #0e0c0c;
+  -webkit-box-shadow: 0px 0px 12px 3px #1c1c1c;
+  -moz-box-shadow: 0px 0px 12px 3px #1c1c1c;
+  box-shadow: 0px 0px 12px 3px #1c1c1c;
+  border: 2px solid #783dcb;
+
+  width: 80%;
+  min-height: 70vh;
+  height: fit-content;
+  border-radius: 10px;
+
+  transition: background-color 0.1s ease-in-out;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  position: absolute;
+  width: 80%;
+  min-height: 60%;
+  font-size: 2rem;
+}
+
+.textInput {
+  position: absolute;
+  width: 80%;
+  min-height: 60%;
+  font-size: 2rem;
+  background-color: transparent;
+  color: transparent;
+  resize: none;
+}
+
+.letter {
+  height: 3rem;
+  display: inline-block;
+}
+
+.timer {
+  font-size: 2rem;
+  height: 3rem;
+  font-weight: bold;
+}
+
+.lostButton {
+  border-radius: 10px;
+  border: 2px solid #783dcb;
+  padding: 6px;
+  padding-inline: 20px;
+  margin-top: 50px;
+  width: 30vw;
+  max-width: 250px;
+  font-size: 2rem;
+  transition: background-color 0.2s ease-in-out, scale 0.2s ease-in-out;
+}
+
+.lostButton:hover {
+  background-color: #9d67e7;
+  scale: 1.1;
+}

@@ -1,0 +1,21 @@
+.gameCard {
+  background-color: #111214;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    scale 0.2s ease-in-out;
+  border: 2px solid #783dcb;
+}
+
+.gameCard:hover {
+  scale: 1.05;
+  background-color: rgba(17, 18, 20, 0.6);
+}

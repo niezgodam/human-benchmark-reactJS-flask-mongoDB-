@@ -1,0 +1,52 @@
+.navBar {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  padding-inline: 3%;
+  background-color: #201c1c;
+  -webkit-box-shadow: 0px 0px 24px 2px rgba(28, 28, 28, 1);
+  -moz-box-shadow: 0px 0px 24px 2px rgba(28, 28, 28, 1);
+  box-shadow: 0px 0px 24px 2px rgba(28, 28, 28, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: #111214;
+}
+
+.appName {
+  color: white;
+  font-size: 25px;
+  color: transparent;
+  position: relative;
+}
+
+.appNamee:hover {
+  color: transparent;
+}
+
+@keyframes textLoading {
+  0% {
+    width: 0%;
+  }
+  20% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.appName::before {
+  content: "HumanBenchmark";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  color: white;
+  transition: 1s ease-in-out;
+  animation: textLoading;
+  animation-duration: 2s;
+  height: 100%;
+  width: 100%;
+}
